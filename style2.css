@@ -1,0 +1,104 @@
+.A{
+    padding-left: 2cm;
+    padding-right: 2cm;
+    margin: 2px solid black;
+    background-color: rgba(62, 203, 203, 0.188);
+    border-radius: 10px;
+    
+}
+
+h2 {
+    color: black;
+}
+
+
+.text{
+    float: right;
+    text-align: right;
+}
+
+.B{
+    text-align: center;
+    background-color: aquamarine;
+    background: rgba(255, 255, 255, 0.3); /* Adjust the alpha value for transparency */
+    border-radius: 10px; /* Adjust the border radius as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.B h1{
+    transform: translateX(-100%);
+    animation: moveText 15s linear infinite;
+}
+@keyframes moveText {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }}
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.right-section {
+    width: 90%;
+    
+    padding: 20px;
+    
+    vertical-align: middle; /* Align the right section in the middle vertically */
+    background: rgba(255, 255, 255, 0.3); /* Adjust the alpha value for transparency */
+    border-radius: 10px; /* Adjust the border radius as needed */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.934);
+    background-color: white;
+}
+ .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            background-color: rgba(62, 203, 203, 0.188);
+            
+            
+        }
+
+
+        .left-section {
+            
+            width: 50%;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .left-section img {
+            max-width: 100%;
+            border-radius: 50%;
+            vertical-align: middle;
+            box-shadow: 0px 0px 50px rgb(1, 9, 9); /* Align the image in the middle vertically */
+
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        
+
+        .content-block {
+            margin-bottom: 30px;
+        }
+
+        .content-block h2 {
+            color: rgb(23, 83, 63);
+            font-size: 24px;
+        }
+
+    
